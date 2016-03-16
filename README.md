@@ -1,1 +1,0 @@
-# better-2checkout-for-woocommerce-pro
