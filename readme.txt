@@ -2,9 +2,9 @@
 Contributors: Collizo4sky
 Donate link: https://omnipay.io/downloads/better-2checkout-payment-gateway-for-woocommerce/
 Tags: 2checkout, 2co, paypal, WooCommerce, woocommerce, payment, payment gateway, gateway, 2checkout payment gateway, 2checkout gateway, credit card, pay, online payment, shop, e-commerce, ecommerce
-Requires at least: 3.9
-Tested up to: 4.4.2
-Stable tag: 1.0
+Requires at least: 4.0
+Tested up to: 4.5
+Stable tag: 1.0.1
 License: GPL-2.0+
 
 Accept credit card and PayPal payment in your WooCommerce powered store via 2Checkout.
@@ -40,6 +40,9 @@ Navigate to your WordPress "Plugins" page, inside of your WordPress dashboard, a
 Have any question, shoot us a mail via support[at]omnipay.io
 
 == Changelog ==
+
+= 1.0.1 =
+* Added automatic plugin update delivery.
 
 = 1.0 =
 * the genesis
