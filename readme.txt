@@ -3,8 +3,8 @@ Contributors: Collizo4sky
 Donate link: https://omnipay.io/downloads/better-2checkout-payment-gateway-for-woocommerce/
 Tags: 2checkout, 2co, paypal, WooCommerce, woocommerce, payment, payment gateway, gateway, 2checkout payment gateway, 2checkout gateway, credit card, pay, online payment, shop, e-commerce, ecommerce
 Requires at least: 4.0
-Tested up to: 4.5
-Stable tag: 1.0.1
+Tested up to: 4.9.8
+Stable tag: 2.0
 License: GPL-2.0+
 
 Accept credit card and PayPal payment in your WooCommerce powered store via 2Checkout.
@@ -19,6 +19,8 @@ Accept credit card and PayPal payment in your WooCommerce powered store via 2Che
 
 ### Features
 * Supports All WooCommerce Product Types.
+* Support WooCommerce Subscription. Both simple and variable subscription.
+* Support multiple subscription payment on a single checkout.
 * Test Mode/Live Mode Selection Option.
 * Accept **credit** card payment.
 * Accept **PayPal** payment.
@@ -41,8 +43,33 @@ Have any question, shoot us a mail via support[at]omnipay.io
 
 == Changelog ==
 
-= 1.0.1 =
+= 2.0 =
 * Added automatic plugin update delivery.
+
+= 1.5 =
+* Fixed undefined variable error
+* Added refund support from 2co INS
+
+= 1.4.1 =
+* Fixed bug in detecting variation product which affected simple subscription
+
+= 1.4 =
+* Added support for variable subscription products
+
+= 1.3 =
+* Added support for coupon codes.
+* Added support for order refund.
+* Added support for subscription cancellation by customers and admin within WordPress.
+
+= 1.2 =
+* Added WooCommerce subscription support.
+* Now using the new class WC_Payment_Gateway_CC
+* Now using WC_Payment_Gateway_CC::form() for credit card form display.
+
+= 1.1 =
+* Added WordPress filter to cart item.
+* Fixed bug where multiple quantity price calculation was flawed.
+* Added tax support to cart line item.
 
 = 1.0 =
 * the genesis
