@@ -1,5 +1,4 @@
 === Better 2Checkout for WooCommerce (PRO) ===
-Contributors: Collizo4sky
 Donate link: https://omnipay.io/downloads/better-2checkout-payment-gateway-for-woocommerce/
 Tags: 2checkout, 2co, paypal, WooCommerce, woocommerce, payment, payment gateway, gateway, 2checkout payment gateway, 2checkout gateway, credit card, pay, online payment, shop, e-commerce, ecommerce
 Requires at least: 4.0
